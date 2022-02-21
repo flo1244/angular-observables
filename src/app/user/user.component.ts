@@ -22,4 +22,6 @@ export class UserComponent implements OnInit {
   onActivate() {
     this.userService.activatedEmitter.next(true);
   }
+
+
 }
